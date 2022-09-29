@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    
+    #square{
+        position: relative;
+        height: 300px;
+        width: 500px;
+        border: 2px solid  orange;
+        background: radial-gradient( green,rgb(16, 156, 16),green);
+    }
+    #square1{
+        height: 300px;
+        width: 500px;
+        border: 2px solid  red; 
+        
+    }
+    #square2{
+        height: 300px;
+        width: 500px;
+        border: 2px solid  white;      
+        
+    }
+    div.circle{
+        border-radius: 100%;
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        top: 90px;
+        left: 40%;
+        text-align: center;
+        border: 2px solid white;
+
+    }
+    div.solidcircle{
+        border-radius: 100%;
+        height: 12px;
+        width: 12px;
+        position: absolute;
+        top: 45%;
+        left: 49%;
+        background-color: white;
+
+    }
+    div.rightsolidcircle{
+        border-radius: 100%;
+        height: 10px;
+        width: 10px;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        background-color: white;
+
+    }
+    div.leftsolidcircle{
+        border-radius: 100%;
+        height: 10px;
+        width: 10px;
+        position: absolute;
+        top: 45%;
+        left: 30%;
+        background-color: white;
+
+    }
+    div.line{
+        border-left: 3px solid white;
+        height: 300px;
+        position: absolute;
+        left: 50%;
+    }
+    div.insideline{
+        border: 2px solid white;
+        width: 20px;
+        height: 50px;
+        top: 40%;
+        position: absolute;
+        
+    }
+    div.outsideline{
+        border: 2px solid white;
+        width: 65px;
+        height: 100px;
+        top: 32%;
+        position: absolute;
+        
+    }
+    div.rightsquare{
+        border: 2px solid white;
+        width: 20px;
+        height: 50px;
+        top: 40%;
+        right: 0%;
+        position: absolute;
+        
+    }
+    div.rightinside{
+        border: 2px solid white;
+        width: 65px;
+        height: 100px;
+        top: 32%;
+        right: 0%;
+        position: absolute;
+        
+    }
+    div.rightsemicircle{
+        position: absolute;
+        top: 50%;
+        left: 17%;
+        transform: translate(-50%,-50%);
+        height: 70px;
+        width: 30px;
+        border-radius: 0 40px 40px 0;
+        border: 1px solid white;
+    }
+    div.leftsemicircle{
+        position: absolute;
+        top: 50%;   
+        right: 10%;
+        transform: translate(-50%,-50%);
+        height: 70px;
+        width: 30px;
+        border-radius: 50px 0 0 50px;
+        border: 1px solid white;
+    }
+
+</style>
+<body>
+    <div class="container">
+        <div id="square">
+            <div id="square1">
+            <div id="square2">
+                <div class="line"></div>
+                <div class="circle"></div>
+                <div class="solidcircle"></div>
+                <div class="insideline"></div>
+                <div class="outsideline">
+                    <div class="rightsolidcircle"></div>
+                </div>
+                <div class="rightsemicircle"></div>
+                <div class="rightsquare">
+                    
+                </div>
+                <div class="rightinside">
+                    <div class="leftsolidcircle"></div>
+                </div>
+                <div class="leftsemicircle"></div>
+            </div>
+        </div>
+        </div>
+
+    </div>
+</body>
+</html>
